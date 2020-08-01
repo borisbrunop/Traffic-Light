@@ -1,4 +1,28 @@
 @import "~bootstrap/scss/bootstrap.scss";
+.trafficTop{
+    width: 5px;
+    height: 100px;
+    background: black;
+}
+.traffic{
+    background: black;
+    width: 100px;
+    height: 260px;
+    padding: 5px;
+
+}
+.light{
+    width: 73px;
+    height: 73px;
+    margin: auto;
+    margin: 7px;
+    &.red{background: red;}
+    &.yellow{background: yellow;}
+    &.green{background: green;}
+    &.selected{box-shadow: rgb(225, 219, 47) 0px 0px 20px 10px;}
+
+}
+
 
 /* 
 
